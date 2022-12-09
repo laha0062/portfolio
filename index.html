@@ -6,41 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--bootstrap java/popper-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <!--font awesome icons-->
     <script src="https://kit.fontawesome.com/de65f5e786.js" crossorigin="anonymous"></script>
+    <!--css doc-->
+    <link rel="stylesheet" href="css/main.css">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <!--place svg here-->
-            </div>
-            <div class="socials">
-                <ul>
-                    <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                </ul>
-            </div>
-            <h1>Home</h1>
-            <div class="navbar-toggler ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown"> 
-                    <i class="fa-solid fa-bars navbar-toggler-icon"></i>
-                </button> 
-                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown"><a class="dropdown-item" type="button" href="index.html">Home</a></li>
-                        <li class="nav-item dropdown"><a type="button" class="dropdown-item" href="about.html">About</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-item" href="contact.html">Contact</a><li>
-                    </ul> 
-                </div> 
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <!--place svg here-->
+                </div>
+                <div class="socials">
+                    <ul class="d-flex">
+                        <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <h1>Home</h1>
+                <div class="navbar-toggler ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                        <i class="fa-solid fa-bars"></i>
+                    </button> 
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a><li>
+                        </ul> 
+                    </div> 
+                </div>
             </div>
         </nav>
-
+    <!--
         <nav class="navbar">
             <div class="logo">
-                <!--place svg here-->
+                place svg here
             </div>
             <div class="socials">
                 <ul>
@@ -51,16 +58,16 @@
             </div>
             <h1>Home</h1>
             <div class="dropdown">
-                <div class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"> 
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"> 
                     <i class="fa-solid fa-bars"></i>
-                </div> 
+                </button> 
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="index.html">Home</a></li>
                     <li><a class="dropdown-item" href="about.html">About</a></li>
                     <li><a class="dropdown-item" href="contact.html">Contact</a><li>
                 </ul> 
             </div>
-        </nav>
+        </nav>-->
 
     </header>
 
