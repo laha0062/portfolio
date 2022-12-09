@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">
                 <!--place svg here-->
             </div>
@@ -24,14 +24,44 @@
                 </ul>
             </div>
             <h1>Home</h1>
-            <div class="page-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <div class="navbar-toggler ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown"> 
+                    <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown"><a class="dropdown-item" type="button" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown"><a type="button" class="dropdown-item" href="about.html">About</a></li>
+                        <li class="nav-item dropdown"><a class="dropdown-item" href="contact.html">Contact</a><li>
+                    </ul> 
+                </div> 
             </div>
         </nav>
+
+        <nav class="navbar">
+            <div class="logo">
+                <!--place svg here-->
+            </div>
+            <div class="socials">
+                <ul>
+                    <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <h1>Home</h1>
+            <div class="dropdown">
+                <div class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"> 
+                    <i class="fa-solid fa-bars"></i>
+                </div> 
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="contact.html">Contact</a><li>
+                </ul> 
+            </div>
+        </nav>
+
     </header>
 
     
