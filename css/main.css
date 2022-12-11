@@ -56,3 +56,8 @@ img {
     display: inline-block;
     max-width: 640px;
 }
+
+.about-center {
+    display: inline-block;
+    text-align: center;
+}
