@@ -30,19 +30,17 @@
                         <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
                     </ul>
                 </div>
-                <h1>Home</h1>
-                <div class="navbar-toggler">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
-                        <i class="fa-solid fa-bars"></i>
-                    </button> 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a><li>
-                        </ul> 
-                    </div> 
-                </div>
+                <h1 class="justify-content-center">Home</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                    <i class="fa-solid fa-bars"></i>
+                </button> 
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a><li>
+                    </ul> 
+                </div> 
             </div>
         </nav>
 
@@ -59,8 +57,29 @@
     </main>
 
     <article class="gallery">
-        <h3>Gallery</h3>
-        
+        <h3 class="text-center">Gallery</h3>
+        <div class="row text-center">
+            <div class="col col-sm-6 ">
+                <img class=""
+            srcset="images/first-img/ah-160x160.webp 160w,
+                    images/first-img/ah-320x320.webp 320w,
+                    images/first-img/ah-640x640.webp 640w"
+            sizes="(max-width: 320px) 160px,
+                (max-width: 640px) 320px,
+                (max-width: 1024px) 640px"
+            src="images/first-img/ah-320x320.webp" alt="Glitchy artwork of distorted shapes">
+            </div>
+            <div class="col col-sm-6">
+                <img class=""
+                srcset="images/second-img/pebbles-160x160.png 160w,
+                        images/second-img/pebbles-320x320.png 320w,
+                        images/second-img/pebbles-640x640.png 640w"
+                sizes="(max-width: 320px) 160px,
+                    (max-width: 640px) 320px,
+                    (max-width: 1024px) 640px"
+                src="images/second-img/pebbles-320x320.png" alt="Glitchy artwork of distorted shapes">
+            </div>
+        </div>
 
     </article>
     
