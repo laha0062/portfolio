@@ -1,6 +1,7 @@
 nav {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 ul {
@@ -16,10 +17,34 @@ h1 {
     margin-left: 5%;
 }
 
+/*changes default colour of danger class*/
+.btn-danger {
+    background-color: #EC030F;
+}
+
+.danger {
+    color: #EC030F;
+}
+
 ul li {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .fa-brands, .fa-bars {
     color: white;
+}
+
+.banner {
+    background-image: url(../images/homepage-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.banner div {
+ margin: 0 auto;
+ text-align: center;
+ color: white;
+ padding-top: 50px;
 }
