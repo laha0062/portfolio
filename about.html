@@ -13,6 +13,8 @@
     <script src="https://kit.fontawesome.com/de65f5e786.js" crossorigin="anonymous"></script>
     <!--css doc-->
     <link rel="stylesheet" href="css/main.css">
+    <!--hover.css framework-->
+    <link rel="stylesheet" href="css/hover.css">
     <title>About</title>
 </head>
 <body>
@@ -36,9 +38,9 @@
                 </button> 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-white bg bg-danger active rounded" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a><li>
+                        <li class="nav-item"><a class="nav-link text-white hvr-underline-from-center" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white text-opacity-50 rounded hvr-underline-from-center rounded" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white hvr-underline-from-center" href="contact.html">Contact</a><li>
                     </ul> 
                 </div> 
             </div>
@@ -48,7 +50,7 @@
 
     <main class="about-center container-fluid">
         <div class="row">
-            <img class="col-md-6"
+            <img class="col-md-6 order-lg-1"
             srcset="images/about-imgs/iain-about-320_x_213.jpg 320w,
                     images/about-imgs/iain-about-640_x_426.jpg 640w"
             sizes="(max-width: 320px) 320px,
@@ -57,9 +59,9 @@
             src="images/about-imgs/iain-about-320_x_320.jpg" alt="Image of Iain Lahaie">
 
             <div class="col-md-6 justify-content-center about-content">
-                <h2 class="bg text-danger d-none d-lg-block">About</h2>
+                <h2 class="danger d-none d-lg-block order-lg-2">About</h2>
                 
-                <p class="">My name is Iain Lahaie I am an amateur photographer and videographer currently studying Interactive media design at Algonquin College. Before attending Algonquin College,
+                <p class="pt-1">My name is Iain Lahaie I am an amateur photographer and videographer currently studying Interactive media design at Algonquin College. Before attending Algonquin College,
                 I had begun creating personal photography and video hobby projects in my free time and eventually took those courses throughout high school. I ultimately decided to pursue a career within these fields and have begun my journey toward doing so.
                 </p>
                 <ul class="d-flex justify-content-center">
@@ -71,7 +73,7 @@
 
             
         </div>
-        <div class="row">
+        <div class="row pt-2">
             <img class="col-md-6"
             srcset="images/about-imgs/door-thing-320_x_180.png 320w,
                     images/about-imgs/door-thing-640_x_360.png 640w"
@@ -80,9 +82,8 @@
                 (max-width: 1024px) 640px"
             src="images/about-imgs/door-thing-320_x_180.png" alt="Glitchy artwork of wavey lines and three door sized rectangles">
 
-            <div class="reviews col-md-6 bg bg-danger">
-                <h3 class="text-light">Testimonials</h3>
-                <p></p>
+            <div class="reviews col-md-6 container-sm text-light">
+                <h3 class="btn-danger">Testimonials</h3>
             </div>
         </div>
 

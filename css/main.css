@@ -18,6 +18,15 @@ ul {
 h1 {
     margin-right: 20%;
     margin-left: 5%;
+    font-size: 2rem;
+}
+
+h1, h2 {
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 /*changes default colour of danger class*/
@@ -26,6 +35,10 @@ h1 {
 }
 
 .danger {
+    color: #EC030F;
+}
+
+.text-danger {
     color: #EC030F;
 }
 
