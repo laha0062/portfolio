@@ -65,3 +65,14 @@ img {
 main .fa-brands {
     color: #EC030F;
 }
+
+form {
+
+}
+
+@media screen and (min-width: 769px){
+    .about-content {
+        text-align: start;
+        padding: 20px;
+    }
+}
