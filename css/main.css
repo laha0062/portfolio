@@ -61,3 +61,7 @@ img {
     display: inline-block;
     text-align: center;
 }
+
+main .fa-brands {
+    color: #EC030F;
+}
