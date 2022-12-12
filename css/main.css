@@ -29,6 +29,10 @@ h1 {
     color: #EC030F;
 }
 
+.bg-danger {
+    background-color: #EC030F;
+}
+
 ul li {
     padding: 7px;
 }
@@ -74,5 +78,9 @@ form {
     .about-content {
         text-align: start;
         padding: 20px;
+    }
+
+    input {
+        width: 70%;
     }
 }

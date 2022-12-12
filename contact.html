@@ -30,7 +30,7 @@
                         <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
                     </ul>
                 </div>
-                <h1 class="justify-content-center">Contact</h1>
+                <h1 class="justify-content-center d-lg-none d-sm-block d-md-block">Contact</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
                     <i class="fa-solid fa-bars"></i>
                 </button> 
@@ -46,25 +46,33 @@
 
     </header>
 
-    <main>
-        <div class="d-flex flex-column container-fluid align-items-center">
-            <h2>Contact</h2>
-            <form action="#" class="">
+    <main class="row">
+        <div class="d-flex flex-column  align-items-center col-md-6">
+            <h2 class="bg text-danger d-none d-lg-block">Contact</h2>
+            <form action="#" class="w-90 container-fluid mb-2">
                 <div>
-                    <label class="mt-2" for="fullname">Fullname</label>
+                    <label class="mt-2 danger fw-semibold" for="fullname">Fullname</label>
                     <input class="w-100" type="text" id="fullname">
                 </div>
                 <div>
-                    <label class="mt-2" for="email">Email</label>
+                    <label class="mt-2 danger fw-semibold" for="email">Email</label>
                     <input class="w-100" type="email" id="email">
                 </div>
                 <div>
-                    <label class="mt-2" for="subject">Subject</label>
-                    <input class="w-100" type="text" id="subject">
+                    <label class="mt-2 danger fw-semibold" for="subject">Subject</label>
+                    <input class="w-100 lg-w-70" type="text" id="subject">
                 </div>
-                <button type="submit" class="btn btn-danger d-lg-block mt-2">Submit</button>
+                <button type="submit" class="btn btn-danger d-lg-block mt-2 w-100 fw-semibold">Submit</button>
             </form>
         </div>
+
+        <img class="col-md-6"
+        srcset="images/contact-imgs/contact-head-320_x_320.jpg 320w,
+            images/contact-imgs/contact-head-640_x_640.jpg 640w"
+        sizes="(max-width: 320px) 320px,
+            (max-width: 640px) 320px"
+        src="images/contact-imgs/god-art-640x480.webp" alt="Image of Iain Lahaie">
+
     </main>
 </body>
 </html>
