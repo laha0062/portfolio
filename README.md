@@ -13,6 +13,8 @@ Through creating this web portfolio, I learned better code formatting via applyi
 
 
 ### Frameworks, Fonts, and Assets used
+- All Images created by Iain Lahaie
+
 - Bootstrap 5
 - Hover.css: Used for hover animations throughout pages (https://ianlunn.github.io/Hover/#effects)
 - Font Awesome: Social media icons (https://fontawesome.com/icons)
