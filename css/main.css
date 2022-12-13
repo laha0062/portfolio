@@ -1,3 +1,19 @@
+.skip-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .skip-link a {
+    position: absolute;
+    top: -3rem;
+    padding: .1em 1em;
+  } 
+  
+  .skip-link a:focus {
+    top: 0;
+  } 
+
 nav {
     background-color: black;
     color: white;
@@ -59,7 +75,7 @@ ul li {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 300px;
 }
 
 .banner div {
@@ -88,6 +104,10 @@ form {
 }
 
 @media screen and (min-width: 769px){
+    body {
+        font-size: large;
+    }
+    
     .about-content {
         text-align: start;
         padding: 20px;

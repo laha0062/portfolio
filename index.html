@@ -21,7 +21,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <ul class="skip-link visually-hidden-focusable">
+            <li><a href="#nav">Skip to navigation</a></li>
+            <li><a href="#main">Skip to main content</a></li>
+          </ul>
+        <nav class="navbar navbar-expand-lg" id="nav">
             <div class="container-fluid">
                 <div class="">
                     <!--place svg here-->
@@ -29,12 +33,12 @@
                 </div>
                 <div class="socials">
                     <ul class="d-none justify-content-around d-lg-flex">
-                        <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter hvr-grow"></i></a></li>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook hvr-grow"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram hvr-grow"></i></a></li>
                     </ul>
                 </div>
-                <h1 class="justify-content-center">Home</h1>
+                <h1 class="justify-content-center d-lg-none d-sm-block d-md-block">Home</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
                     <i class="fa-solid fa-bars"></i>
                 </button> 
@@ -50,12 +54,12 @@
 
     </header>
 
-    <main>
+    <main id="main">
         <div class="banner row">
             <div class="col-lg-6">
                 <h2 class="danger">Welcome</h2>
                 <p>Dedicated to bringing your projects to life</p>
-                <button class="btn btn-danger ">See More</button>
+                <button class="btn btn-danger fw-semibold">See More</button>
             </div>
             <div class="col-lg-6"></div>
         </div>
